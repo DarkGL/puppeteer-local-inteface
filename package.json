@@ -1,0 +1,20 @@
+{
+  "name": "puppeteer-local-inteface",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc",
+    "lint": "npx @biomejs/biome lint --apply ./src",
+    "format": "npx @biomejs/biome format --write ./src",
+    "check": "npx @biomejs/biome check --apply ./src"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "puppeteer": "^22.10.0"
+  },
+  "type": "module"
+}
